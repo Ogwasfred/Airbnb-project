@@ -1,4 +1,4 @@
-import React from 'react';
+
 import myimg from '../../assets/Frame 6 (1).jpg'
 import myimg2 from '../../assets/Frame 6 (10).jpg'
 import myimg3 from '../../assets/Frame 6 (11).jpg'
@@ -13,7 +13,7 @@ import myimg10 from '../../assets/Frame 6 (8).jpg'
 
 const listings = [
   {
-    image: [myimg],
+    image: myimg,
     location: "Half Moon Bay, California, US",
     type: "Beach and ocean views",
     date: "22-27 Oct · Individual Host",
@@ -21,7 +21,7 @@ const listings = [
     rating: 5.0,
   },
   {
-    image: [myimg2],
+    image: myimg2,
     location: "Aspen, Colorado, US",
     type: "Mountain retreat",
     date: "15-20 Nov · Individual Host",
@@ -29,7 +29,7 @@ const listings = [
     rating: 4.8,
   },
   {
-    image: [myimg3],
+    image: myimg3,
     location: "Santorini, Greece",
     type: "Oceanfront villa",
     date: "10-15 Sep · Individual Host",
@@ -37,7 +37,7 @@ const listings = [
     rating: 4.9,
   },
   {
-    image: [myimg4],
+    image: myimg4,
     location: "Kyoto, Japan",
     type: "Traditional Ryokan",
     date: "5-10 Dec · Individual Host",
@@ -45,7 +45,7 @@ const listings = [
     rating: 4.7,
   },
   {
-    image: [myimg5],
+    image: myimg5,
     location: "Paris, France",
     type: "City apartment",
     date: "1-6 Jan · Individual Host",
@@ -53,7 +53,7 @@ const listings = [
     rating: 4.6,
   },
   {
-    image: [myimg6],
+    image: myimg6,
     location: "Cape Town, South Africa",
     type: "Luxury safari lodge",
     date: "20-25 Mar · Individual Host",
@@ -61,7 +61,7 @@ const listings = [
     rating: 5.0,
   },
   {
-    image: [myimg7],
+    image: myimg7,
     location: "Bali, Indonesia",
     type: "Tropical paradise",
     date: "12-18 Aug · Individual Host",
@@ -69,7 +69,7 @@ const listings = [
     rating: 4.9,
   },
   {
-    image: [myimg8],
+    image: myimg8,
     location: "Reykjavik, Iceland",
     type: "Northern lights cabin",
     date: "3-8 Feb · Individual Host",
@@ -77,7 +77,7 @@ const listings = [
     rating: 4.8,
   },
   {
-    image: [myimg9],
+    image: myimg9,
     location: "Reykjavik, Iceland",
     type: "Northern lights cabin",
     date: "3-8 Feb · Individual Host",
@@ -85,7 +85,7 @@ const listings = [
     rating: 4.8,
   },
   {
-    image: [myimg10],
+    image: myimg10,
     location: "Reykjavik, Iceland",
     type: "Northern lights cabin",
     date: "3-8 Feb · Individual Host",
@@ -93,7 +93,7 @@ const listings = [
     rating: 4.8,
   },
   {
-    image: [myimg11],
+    image: myimg11,
     location: "Reykjavik, Iceland",
     type: "Northern lights cabin",
     date: "3-8 Feb · Individual Host",

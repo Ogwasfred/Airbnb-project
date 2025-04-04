@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { FaFacebook, FaGoogle, FaApple, FaEnvelope } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import backgroundImage from '../assets/house.webp';

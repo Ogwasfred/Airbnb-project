@@ -1,9 +1,8 @@
-import React, { useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import  { useState } from "react";
+import { Link } from "react-router-dom";
 import {
-  ArrowRight,
+  
   Menu,
-  X,
   Filter,
   ChevronRight,
   Mountain,
@@ -42,8 +41,6 @@ function Navbar() {
   const handleToggle = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-
-  const myLocation = useLocation();
 
   return (
     <div>
